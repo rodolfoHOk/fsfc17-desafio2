@@ -30,6 +30,7 @@ Disponibilize a aplicação em um repositório Git que permita-se roda-la em htt
 - @emotion/styled
 - @mui/material-nextjs
 - @emotion/cache
+- @mui/icons-material
 
 ## Next default doc
 

@@ -3,6 +3,7 @@ import { AppRouterCacheProvider } from '@mui/material-nextjs/v14-appRouter';
 import { Box, ThemeProvider } from '@mui/material';
 import { theme } from '@/theme';
 import '../styles/reset.css';
+import { Header } from '@/components/Header';
 
 export const metadata: Metadata = {
   title: 'Desafio 2 - Posts',
@@ -27,7 +28,17 @@ export default function RootLayout({
                 color: 'text.primary',
               }}
             >
-              {children}
+              <Header />
+              <Box
+                sx={{
+                  width: '100vw',
+                  height: 'calc(100% - 72px)',
+                  paddingTop: '72px',
+                  color: 'text.primary',
+                }}
+              >
+                {children}
+              </Box>
             </Box>
           </ThemeProvider>
         </AppRouterCacheProvider>
