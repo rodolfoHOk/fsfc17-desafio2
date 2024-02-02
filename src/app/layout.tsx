@@ -34,7 +34,6 @@ export default function RootLayout({
                   width: '100vw',
                   height: 'calc(100% - 72px)',
                   paddingTop: '72px',
-                  color: 'text.primary',
                 }}
               >
                 {children}
