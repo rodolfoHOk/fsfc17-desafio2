@@ -1,5 +1,7 @@
 # Imersão FullStack FullCycle 17 - Desafio 2
 
+> Desafio 2 - Imersão FullStack & FullCycle 17 da CodeEdu / FullCycle
+
 ## Criando aplicação Server Side Rendering com Next.js
 
 ### Informações do desafio
